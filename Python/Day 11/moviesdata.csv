@@ -1,0 +1,1001 @@
+Movie Name,Year,Duration,Rating
+The Shawshank Redemption,1994,142 min,9.3
+The Godfather,1972,175 min,9.2
+The Dark Knight,2008,152 min,9.0
+Schindler's List,1993,195 min,9.0
+The Lord of the Rings: The Return of the King,2003,201 min,9.0
+12 Angry Men,1957,96 min,9.0
+The Godfather Part II,1974,202 min,9.0
+Pulp Fiction,1994,154 min,8.9
+Inception,2010,148 min,8.8
+The Lord of the Rings: The Fellowship of the Ring,2001,178 min,8.8
+Fight Club,1999,139 min,8.8
+Forrest Gump,1994,142 min,8.8
+The Lord of the Rings: The Two Towers,2002,179 min,8.8
+"Il buono, il brutto, il cattivo",1966,161 min,8.8
+Jai Bhim,2021,164 min,8.8
+777 Charlie,2022,136 min,8.8
+Rocketry: The Nambi Effect,2022,157 min,8.8
+The Matrix,1999,136 min,8.7
+GoodFellas,1990,145 min,8.7
+One Flew Over the Cuckoo's Nest,1975,133 min,8.7
+The Empire Strikes Back,1980,124 min,8.7
+Soorarai Pottru,2020,153 min,8.7
+Interstellar,2014,169 min,8.6
+Se7en,1995,127 min,8.6
+The Silence of the Lambs,1991,118 min,8.6
+Star Wars,1977,121 min,8.6
+Terminator 2: Judgment Day,1991,137 min,8.6
+The Green Mile,1999,189 min,8.6
+Sen to Chihiro no kamikakushi,2001,125 min,8.6
+Saving Private Ryan,1998,169 min,8.6
+Cidade de Deus,2002,130 min,8.6
+La vita è bella,1997,116 min,8.6
+Shichinin no samurai,1954,207 min,8.6
+It's a Wonderful Life,1946,130 min,8.6
+Seppuku,1962,133 min,8.6
+Sita Ramam,2022,163 min,8.6
+Gladiator,2000,155 min,8.5
+Gisaengchung,2019,132 min,8.5
+Whiplash,2014,106 min,8.5
+The Departed,2006,151 min,8.5
+Back to the Future,1985,116 min,8.5
+The Prestige,2006,130 min,8.5
+Alien,1979,117 min,8.5
+Léon,1994,110 min,8.5
+Psycho,1960,109 min,8.5
+Apocalypse Now,1979,147 min,8.5
+The Lion King,1994,88 min,8.5
+The Pianist,2002,150 min,8.5
+The Usual Suspects,1995,106 min,8.5
+American History X,1998,119 min,8.5
+The Intouchables,2011,112 min,8.5
+Once Upon a Time in the West,1968,165 min,8.5
+Casablanca,1942,102 min,8.5
+Hotaru no haka,1988,89 min,8.5
+Rear Window,1954,112 min,8.5
+Nuovo Cinema Paradiso,1988,155 min,8.5
+Kaithi,2019,145 min,8.5
+Modern Times,1936,87 min,8.5
+City Lights,1931,87 min,8.5
+96,II 2018,158 min,8.5
+Joker,I 2019,122 min,8.4
+Spider-Man: Into the Spider-Verse,2018,117 min,8.4
+Avengers: Endgame,2019,181 min,8.4
+Django Unchained,2012,165 min,8.4
+American Beauty,1999,122 min,8.4
+Raiders of the Lost Ark,1981,115 min,8.4
+The Shining,1980,146 min,8.4
+Oldeuboi,2003,101 min,8.4
+Kimi no na wa.,2016,106 min,8.4
+The Dark Knight Rises,2012,164 min,8.4
+Avengers: Infinity War,2018,149 min,8.4
+Braveheart,1995,178 min,8.4
+Memento,2000,113 min,8.4
+Aliens,1986,137 min,8.4
+Idi i smotri,1985,142 min,8.4
+Coco,I 2017,105 min,8.4
+WALL·E,2008,98 min,8.4
+Amadeus,1984,160 min,8.4
+The Lives of Others,2006,137 min,8.4
+3 Idiots,2009,170 min,8.4
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,95 min,8.4
+Capharnaüm,2018,126 min,8.4
+Das Boot,1981,149 min,8.4
+Sunset Blvd.,1950,110 min,8.4
+Witness for the Prosecution,1957,116 min,8.4
+Paths of Glory,1957,88 min,8.4
+The Great Dictator,1940,125 min,8.4
+Tengoku to jigoku,1963,143 min,8.4
+Sardar Udham,2021,164 min,8.4
+Asuran,2019,141 min,8.4
+Drishyam 2,2021,152 min,8.4
+John Wick: Chapter 4,2023,169 min,8.3
+Top Gun: Maverick,2022,130 min,8.3
+Scarface,1983,170 min,8.3
+Good Will Hunting,1997,126 min,8.3
+Inglourious Basterds,2009,153 min,8.3
+Heat,1995,170 min,8.3
+Requiem for a Dream,2000,102 min,8.3
+2001: A Space Odyssey,1968,149 min,8.3
+A Clockwork Orange,1971,136 min,8.3
+A Clockwork Orange,1971,136 min,8.3
+Eternal Sunshine of the Spotless Mind,2004,108 min,8.3
+Reservoir Dogs,1992,99 min,8.3
+Full Metal Jacket,1987,116 min,8.3
+Once Upon a Time in America,1984,229 min,8.3
+Jagten,2012,115 min,8.3
+Hamilton,2020,160 min,8.3
+Toy Story,1995,81 min,8.3
+Star Wars: Episode VI - Return of the Jedi,1983,131 min,8.3
+Up,2009,96 min,8.3
+Le fabuleux destin d'Amélie Poulain,2001,122 min,8.3
+Lawrence of Arabia,1962,218 min,8.3
+Incendies,2010,131 min,8.3
+To Kill a Mockingbird,1962,129 min,8.3
+Mononoke-hime,1997,134 min,8.3
+Toy Story 3,2010,103 min,8.3
+Vertigo,1958,128 min,8.3
+Citizen Kane,1941,119 min,8.3
+The Sting,1973,129 min,8.3
+North by Northwest,1959,136 min,8.3
+Singin' in the Rain,1952,103 min,8.3
+Metropolis,1927,153 min,8.3
+Jodaeiye Nader az Simin,2011,123 min,8.3
+Ikiru,1952,143 min,8.3
+Judgment at Nuremberg,1961,179 min,8.3
+Dangal,2016,161 min,8.3
+The Apartment,1960,125 min,8.3
+M - Eine Stadt sucht einen Mörder,1931,117 min,8.3
+Double Indemnity,1944,107 min,8.3
+Taare Zameen Par,2007,165 min,8.3
+Kantara,2022,148 min,8.3
+Ladri di biciclette,1948,89 min,8.3
+Vikram,2022,175 min,8.3
+K.G.F: Chapter 2,2022,168 min,8.3
+The Kid,1921,68 min,8.3
+Ayla: The Daughter of War,2017,125 min,8.3
+Ratsasan,2018,170 min,8.3
+Shershaah,2021,135 min,8.3
+Chhichhore,2019,143 min,8.3
+Drishyam,2013,160 min,8.3
+The Wolf of Wall Street,2013,180 min,8.2
+The Thing,1982,109 min,8.2
+Spider-Man: No Way Home,2021,148 min,8.2
+Jurassic Park,1993,127 min,8.2
+Taxi Driver,1976,114 min,8.2
+Shutter Island,2010,138 min,8.2
+No Country for Old Men,2007,122 min,8.2
+Green Book,2018,130 min,8.2
+1917,2019,119 min,8.2
+The Truman Show,1998,103 min,8.2
+Kill Bill: Vol. 1,2003,111 min,8.2
+Casino,1995,178 min,8.2
+The Sixth Sense,1999,107 min,8.2
+Snatch,2000,104 min,8.2
+There Will Be Blood,2007,158 min,8.2
+Hauru no ugoku shiro,2004,119 min,8.2
+Batman Begins,2005,140 min,8.2
+The Father,I 2020,97 min,8.2
+L.A. Confidential,1997,138 min,8.2
+A Beautiful Mind,2001,135 min,8.2
+Indiana Jones and the Last Crusade,1989,127 min,8.2
+Finding Nemo,2003,100 min,8.2
+Gone with the Wind,1939,238 min,8.2
+Unforgiven,1992,130 min,8.2
+V for Vendetta,2005,132 min,8.2
+Die Hard,1988,132 min,8.2
+Pan's Labyrinth,2006,118 min,8.2
+The Elephant Man,1980,124 min,8.2
+Chinatown,1974,130 min,8.2
+Warrior,2011,140 min,8.2
+Der Untergang,2004,156 min,8.2
+Raging Bull,1980,129 min,8.2
+Monty Python and the Holy Grail,1975,91 min,8.2
+Some Like It Hot,1959,121 min,8.2
+Kimetsu no Yaiba: Mugen Ressha-Hen,2020,117 min,8.2
+El secreto de sus ojos,2009,129 min,8.2
+The Great Escape,1963,172 min,8.2
+Drishyam 2,2022,140 min,8.2
+All About Eve,1950,138 min,8.2
+Ran,1985,162 min,8.2
+Per qualche dollaro in più,1965,132 min,8.2
+The Bridge on the River Kwai,1957,161 min,8.2
+Tumbbad,2018,104 min,8.2
+Dial M for Murder,1954,105 min,8.2
+The Treasure of the Sierra Madre,1948,126 min,8.2
+Rashômon,1950,88 min,8.2
+Baahubali 2: The Conclusion,2017,167 min,8.2
+Klaus,2019,96 min,8.2
+Gangs of Wasseypur,2012,321 min,8.2
+Yôjinbô,1961,110 min,8.2
+Andhadhun,2018,139 min,8.2
+Drishyam,2015,163 min,8.2
+Miracle in Cell No. 7,2019,132 min,8.2
+Tôkyô monogatari,1953,136 min,8.2
+Z,1969,127 min,8.2
+Bacheha-Ye aseman,1997,89 min,8.2
+Zindagi Na Milegi Dobara,2011,155 min,8.2
+Dersu Uzala,1975,142 min,8.2
+Pather Panchali,1955,125 min,8.2
+Babam ve Oglum,2005,112 min,8.2
+To Be or Not to Be,1942,99 min,8.2
+Vikram Vedha,2017,147 min,8.2
+K.G.F: Chapter 1,2018,156 min,8.2
+"Swades: We, the People",2004,210 min,8.2
+La passion de Jeanne d'Arc,1928,110 min,8.2
+Le salaire de la peur,1953,131 min,8.2
+Uri: The Surgical Strike,2019,138 min,8.2
+Sherlock Jr.,1924,45 min,8.2
+Umberto D.,1952,89 min,8.2
+Bhaag Milkha Bhaag,2013,186 min,8.2
+Paan Singh Tomar,2012,135 min,8.2
+The Help,2011,146 min,8.1
+Prisoners,2013,153 min,8.1
+The Grand Budapest Hotel,2014,99 min,8.1
+Mad Max: Fury Road,2015,120 min,8.1
+Rocky,1976,120 min,8.1
+Catch Me If You Can,2002,141 min,8.1
+Gone Girl,2014,149 min,8.1
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,143 min,8.1
+The Big Lebowski,1998,117 min,8.1
+Blade Runner,1982,117 min,8.1
+The Exorcist,1973,122 min,8.1
+Ben-Hur,1959,212 min,8.1
+Ford v Ferrari,2019,152 min,8.1
+Harry Potter and the Deathly Hallows: Part 2,2011,130 min,8.1
+Stand by Me,1986,89 min,8.1
+Hacksaw Ridge,2016,139 min,8.1
+The Terminator,1984,107 min,8.1
+Cool Hand Luke,1967,127 min,8.1
+Dead Poets Society,1989,128 min,8.1
+The Wizard of Oz,1939,102 min,8.1
+Ratatouille,2007,111 min,8.1
+Ah-ga-ssi,2016,145 min,8.1
+Jaws,1975,124 min,8.1
+"Three Billboards Outside Ebbing, Missouri",2017,115 min,8.1
+Inside Out,I 2015,95 min,8.1
+Trainspotting,1996,93 min,8.1
+"Lock, Stock and Two Smoking Barrels",1998,107 min,8.1
+Logan,2017,137 min,8.1
+Fargo,1996,98 min,8.1
+Into the Wild,2007,148 min,8.1
+The Sound of Music,1965,172 min,8.1
+Spotlight,I 2015,129 min,8.1
+Room,I 2015,118 min,8.1
+How to Train Your Dragon,2010,98 min,8.1
+Salinui chueok,2003,131 min,8.1
+"Monsters, Inc.",2001,92 min,8.1
+Groundhog Day,1993,101 min,8.1
+Before Sunrise,1995,101 min,8.1
+The Deer Hunter,1978,183 min,8.1
+Platoon,1986,120 min,8.1
+Rush,I 2013,123 min,8.1
+12 Years a Slave,2013,134 min,8.1
+La haine,1995,98 min,8.1
+Portrait de la jeune fille en feu,2019,122 min,8.1
+Million Dollar Baby,2004,132 min,8.1
+Fa Yeung Nin Wah,2000,98 min,8.1
+Tonari no Totoro,1988,86 min,8.1
+Stalker,1979,162 min,8.1
+Gran Torino,2008,116 min,8.1
+The Best Years of Our Lives,1946,170 min,8.1
+Barry Lyndon,1975,185 min,8.1
+Relatos salvajes,2014,122 min,8.1
+Hachi: A Dog's Tale,2009,93 min,8.1
+Network,1976,121 min,8.1
+Koe no katachi,2016,130 min,8.1
+Before Sunset,2004,80 min,8.1
+"Paris, Texas",1984,145 min,8.1
+Det sjunde inseglet,1957,96 min,8.1
+All Quiet on the Western Front,1930,152 min,8.1
+The Iron Giant,1999,86 min,8.1
+Hotel Rwanda,2004,121 min,8.1
+Amores perros,2000,154 min,8.1
+In the Name of the Father,1993,133 min,8.1
+The Man Who Shot Liberty Valance,1962,123 min,8.1
+The Third Man,1949,104 min,8.1
+Rebecca,1940,130 min,8.1
+On the Waterfront,1954,108 min,8.1
+Persona,1966,85 min,8.1
+"Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni",1997,87 min,8.1
+Festen,1998,105 min,8.1
+Mary and Max.,2009,92 min,8.1
+Les quatre cents coups,1959,99 min,8.1
+It Happened One Night,1934,105 min,8.1
+The Grapes of Wrath,1940,129 min,8.1
+The Message,1976,177 min,8.1
+Trois couleurs: Rouge,1994,99 min,8.1
+Yi yi,2000,173 min,8.1
+Ba wang bie ji,1993,171 min,8.1
+Paper Moon,1973,102 min,8.1
+PK,2014,153 min,8.1
+The Red Shoes,1948,135 min,8.1
+Smultronstället,1957,91 min,8.1
+Underground,1995,170 min,8.1
+Sunrise: A Song of Two Humans,1927,94 min,8.1
+Andrei Rublev,1966,205 min,8.1
+Fanny och Alexander,1982,188 min,8.1
+Inherit the Wind,1960,128 min,8.1
+Mr. Smith Goes to Washington,1939,129 min,8.1
+Bajrangi Bhaijaan,2015,163 min,8.1
+A Woman Under the Influence,1974,155 min,8.1
+La battaglia di Algeri,1966,121 min,8.1
+Ôkami kodomo no Ame to Yuki,2012,117 min,8.1
+Kakushi-toride no san-akunin,1958,139 min,8.1
+Lagaan: Once Upon a Time in India,2001,224 min,8.1
+Kis Uykusu,2014,196 min,8.1
+Kumonosu-jô,1957,110 min,8.1
+The General,1926,67 min,8.1
+Les diaboliques,1955,117 min,8.1
+Höstsonaten,1978,99 min,8.1
+Jean de Florette,1986,120 min,8.1
+Masaan,2015,109 min,8.1
+White Heat,1949,114 min,8.1
+Le notti di Cabiria,1957,110 min,8.1
+Hera Pheri,2000,156 min,8.1
+Da hong denglong gaogao gua,1991,125 min,8.1
+Ace in the Hole,1951,111 min,8.1
+The Gold Rush,1925,95 min,8.1
+Dil Chahta Hai,2001,183 min,8.1
+Du rififi chez les hommes,1955,118 min,8.1
+Jungfrukällan,1960,89 min,8.1
+Barfi!,2012,151 min,8.1
+La Grande Illusion,1937,113 min,8.1
+Rang De Basanti,2006,167 min,8.1
+Pink,III 2016,136 min,8.1
+Talvar,2015,132 min,8.1
+Dom za vesanje,1988,142 min,8.1
+Queen,2013,146 min,8.1
+Mandariinid,2013,87 min,8.1
+Udaan,2010,134 min,8.1
+Chak De! India,2007,153 min,8.1
+Black,2005,122 min,8.1
+Article 15,2019,130 min,8.1
+The Circus,1928,72 min,8.1
+Sarfarosh,1999,174 min,8.1
+Sholay,1975,204 min,8.1
+Anand,1971,122 min,8.1
+Munna Bhai M.B.B.S.,2003,156 min,8.1
+A Wednesday,2008,104 min,8.1
+OMG: Oh My God!,2012,125 min,8.1
+Eskiya,1996,128 min,8.1
+Kahaani,2012,122 min,8.1
+Her Sey Çok Güzel Olacak,1998,107 min,8.1
+Dune: Part One,2021,155 min,8.0
+Blade Runner 2049,2017,164 min,8.0
+Black Swan,2010,108 min,8.0
+Guardians of the Galaxy,2014,121 min,8.0
+Deadpool,2016,108 min,8.0
+La La Land,2016,128 min,8.0
+The Princess Bride,1987,98 min,8.0
+Her,2013,126 min,8.0
+Donnie Darko,2001,113 min,8.0
+Dances with Wolves,1990,181 min,8.0
+The Avengers,2012,143 min,8.0
+Zack Snyder's Justice League,2021,242 min,8.0
+Zootopia,2016,108 min,8.0
+The Martian,2015,144 min,8.0
+The Revenant,2015,156 min,8.0
+Casino Royale,2006,144 min,8.0
+CODA,2021,111 min,8.0
+Sin City,2005,124 min,8.0
+The Incredibles,2004,115 min,8.0
+Rain Man,1988,133 min,8.0
+The Bourne Ultimatum,2007,115 min,8.0
+Scent of a Woman,1992,156 min,8.0
+The Imitation Game,2014,114 min,8.0
+Planet of the Apes,1968,112 min,8.0
+Aladdin,1992,90 min,8.0
+Twelve Monkeys,1995,129 min,8.0
+Soul,2020,100 min,8.0
+Magnolia,1999,188 min,8.0
+Big Fish,2003,125 min,8.0
+Ip Man,2008,106 min,8.0
+Life of Brian,1979,94 min,8.0
+Slumdog Millionaire,2008,120 min,8.0
+Beauty and the Beast,1991,84 min,8.0
+The Graduate,1967,106 min,8.0
+What Ever Happened to Baby Jane?,1962,134 min,8.0
+Pâfekuto burû,1997,81 min,8.0
+The Maltese Falcon,1941,100 min,8.0
+The Pursuit of Happyness,2006,117 min,8.0
+JFK,1991,189 min,8.0
+Kill Bill: Vol. 2,2004,137 min,8.0
+The King's Speech,2010,118 min,8.0
+Akira,1988,124 min,8.0
+Cinderella Man,2005,144 min,8.0
+Chung Hing sam lam,1994,102 min,8.0
+Rosemary's Baby,1968,137 min,8.0
+Dog Day Afternoon,1975,125 min,8.0
+Do the Right Thing,1989,120 min,8.0
+Lion,2016,118 min,8.0
+Contratiempo,2016,106 min,8.0
+Papillon,1973,151 min,8.0
+Blood Diamond,2006,143 min,8.0
+Young Frankenstein,1974,106 min,8.0
+Butch Cassidy and the Sundance Kid,1969,110 min,8.0
+Dogville,2003,178 min,8.0
+Annie Hall,1977,93 min,8.0
+Bãhubali: The Beginning,2015,159 min,8.0
+Rio Bravo,1959,141 min,8.0
+Sling Blade,1996,135 min,8.0
+Solaris,1972,167 min,8.0
+Fiddler on the Roof,1971,181 min,8.0
+Roman Holiday,1953,118 min,8.0
+Gandhi,1982,191 min,8.0
+Kaze no tani no Naushika,1984,117 min,8.0
+Being There,1979,130 min,8.0
+The Last Picture Show,1971,118 min,8.0
+8½,1963,138 min,8.0
+Tenkû no shiro Rapyuta,1986,125 min,8.0
+Pink Floyd: The Wall,1982,95 min,8.0
+La dolce vita,1960,174 min,8.0
+Who's Afraid of Virginia Woolf?,1966,131 min,8.0
+WolfWalkers,2020,103 min,8.0
+Mommy,I 2014,139 min,8.0
+High Noon,1952,85 min,8.0
+Anatomy of a Murder,1959,161 min,8.0
+Der Himmel über Berlin,1987,128 min,8.0
+Zerkalo,1975,107 min,8.0
+Mou gaan dou,2002,101 min,8.0
+The Night of the Hunter,1955,92 min,8.0
+Das Cabinet des Dr. Caligari,1920,76 min,8.0
+Touch of Evil,1958,95 min,8.0
+The Straight Story,1999,112 min,8.0
+The Hustler,1961,134 min,8.0
+Kaguya-hime no monogatari,2013,137 min,8.0
+Tropa de Elite,2007,115 min,8.0
+La leggenda del pianista sull'oceano,1998,169 min,8.0
+Il gattopardo,1963,186 min,8.0
+Song of the Sea,2014,93 min,8.0
+Secrets & Lies,1996,136 min,8.0
+Yeopgijeogin geunyeo,2001,137 min,8.0
+Fitzcarraldo,1982,158 min,8.0
+Nostalgia,1983,125 min,8.0
+Sweet Smell of Success,1957,96 min,8.0
+Le scaphandre et le papillon,2007,112 min,8.0
+Le Samouraï,1967,105 min,8.0
+Stalag 17,1953,120 min,8.0
+"Quo vadis, Aida?",2020,101 min,8.0
+Out of the Past,1947,97 min,8.0
+Brief Encounter,1945,86 min,8.0
+Bom yeoreum gaeul gyeoul geurigo bom,2003,103 min,8.0
+Dare mo shiranai,2004,141 min,8.0
+Sleuth,1972,138 min,8.0
+Persepolis,2007,96 min,8.0
+Dilwale Dulhania Le Jayenge,1995,189 min,8.0
+"Crna macka, beli macor",1998,127 min,8.0
+Ivanovo detstvo,1962,95 min,8.0
+La Strada,1954,108 min,8.0
+Mar adentro,I 2004,126 min,8.0
+Okuribito,2008,130 min,8.0
+Viskningar och rop,1972,91 min,8.0
+Au revoir les enfants,1987,104 min,8.0
+Kind Hearts and Coronets,1949,106 min,8.0
+Central do Brasil,1998,110 min,8.0
+The Shop Around the Corner,1940,99 min,8.0
+El ángel exterminador,1962,95 min,8.0
+Tropa de Elite 2: O Inimigo Agora é Outro,2010,115 min,8.0
+Sanjuro,1962,96 min,8.0
+Haider,2014,160 min,8.0
+Roma città aperta,1945,103 min,8.0
+G.O.R.A.,2004,127 min,8.0
+Taegukgi hwinalrimyeo,2004,140 min,8.0
+Nattvardsgästerna,1963,81 min,8.0
+Andaz Apna Apna,1994,160 min,8.0
+Vizontele,2001,110 min,8.0
+Lage Raho Munna Bhai,2006,144 min,8.0
+Special Chabbis,2013,144 min,8.0
+Nefes: Vatan Sagolsun,2009,128 min,8.0
+Everything Everywhere All at Once,2022,139 min,7.9
+The Ten Commandments,1956,220 min,7.9
+Puss in Boots: The Last Wish,2022,102 min,7.9
+Avatar,2009,162 min,7.9
+Titanic,1997,194 min,7.9
+RRR (Rise Roar Revolt),2022,187 min,7.9
+Knives Out,2019,130 min,7.9
+Children of Men,2006,109 min,7.9
+The Bourne Identity,2002,119 min,7.9
+Mulholland Dr.,2001,147 min,7.9
+Harry Potter and the Prisoner of Azkaban,2004,142 min,7.9
+In Bruges,2008,107 min,7.9
+Arrival,II 2016,116 min,7.9
+Iron Man,2008,126 min,7.9
+Almost Famous,2000,122 min,7.9
+Shrek,2001,90 min,7.9
+Boogie Nights,1997,155 min,7.9
+Thor: Ragnarok,2017,130 min,7.9
+Jojo Rabbit,2019,108 min,7.9
+Bohemian Rhapsody,2018,134 min,7.9
+True Romance,1993,119 min,7.9
+E.T. the Extra-Terrestrial,1982,115 min,7.9
+Edge of Tomorrow,2014,113 min,7.9
+The Perks of Being a Wallflower,2012,103 min,7.9
+Fantastic Mr. Fox,2009,87 min,7.9
+Mystic River,2003,138 min,7.9
+Star Trek,2009,127 min,7.9
+District 9,2009,112 min,7.9
+Marriage Story,2019,137 min,7.9
+Wonder,I 2017,113 min,7.9
+Carlito's Way,1993,144 min,7.9
+Wo hu cang long,2000,120 min,7.9
+Shaun of the Dead,2004,99 min,7.9
+X-Men: Days of Future Past,2014,132 min,7.9
+Boyhood,I 2014,165 min,7.9
+Life of Pi,2012,127 min,7.9
+The Blues Brothers,1980,133 min,7.9
+Edward Scissorhands,1990,105 min,7.9
+Dallas Buyers Club,2013,117 min,7.9
+The Adventures of Robin Hood,1938,102 min,7.9
+The Wrestler,2008,109 min,7.9
+The Nightmare Before Christmas,1993,76 min,7.9
+The Man from Earth,2007,87 min,7.9
+Spartacus,1960,197 min,7.9
+Toy Story 2,1999,92 min,7.9
+A Streetcar Named Desire,1951,122 min,7.9
+Brazil,1985,132 min,7.9
+Nosferatu,1922,94 min,7.9
+This Is Spinal Tap,1984,82 min,7.9
+Kôkaku kidôtai,1995,83 min,7.9
+Per un pugno di dollari,1964,99 min,7.9
+The Searchers,1956,119 min,7.9
+Serbuan maut 2: Berandal,2014,150 min,7.9
+Before Midnight,2013,109 min,7.9
+All the President's Men,1976,138 min,7.9
+Doctor Zhivago,1965,197 min,7.9
+The Wild Bunch,1969,145 min,7.9
+Låt den rätte komma in,2008,114 min,7.9
+Bound by Honor,1993,180 min,7.9
+Ying xiong,2002,120 min,7.9
+The Artist,I 2011,100 min,7.9
+King Kong,1933,100 min,7.9
+Trois couleurs: Bleu,1993,94 min,7.9
+Charade,1963,113 min,7.9
+Dancer in the Dark,2000,140 min,7.9
+In the Heat of the Night,1967,110 min,7.9
+In a Lonely Place,1950,94 min,7.9
+Manbiki kazoku,2018,121 min,7.9
+Harold and Maude,1971,91 min,7.9
+Patton,1970,172 min,7.9
+Letters from Iwo Jima,2006,141 min,7.9
+A Christmas Story,1983,93 min,7.9
+Strangers on a Train,1951,101 min,7.9
+Togo,2019,113 min,7.9
+Sing Street,2016,106 min,7.9
+Cat on a Hot Tin Roof,1958,108 min,7.9
+The Philadelphia Story,1940,112 min,7.9
+In Cold Blood,1967,134 min,7.9
+Notorious,1946,102 min,7.9
+Mimi wo sumaseba,1995,111 min,7.9
+Il conformista,1970,113 min,7.9
+The Manchurian Candidate,1962,126 min,7.9
+The Killing,1956,84 min,7.9
+Amour,2012,127 min,7.9
+Rope,1948,80 min,7.9
+Short Term 12,2013,96 min,7.9
+The Big Sleep,1946,114 min,7.9
+Arsenic and Old Lace,1944,118 min,7.9
+Sacrifice,1986,149 min,7.9
+The Lion in Winter,1968,134 min,7.9
+Laura,1944,88 min,7.9
+Harvey,1950,104 min,7.9
+Hable con ella,2002,112 min,7.9
+Once Were Warriors,1994,102 min,7.9
+Bin-jip,2004,88 min,7.9
+Amarcord,1973,123 min,7.9
+Darbareye Elly,2009,119 min,7.9
+Kagemusha,1980,180 min,7.9
+Taeksi woonjunsa,2017,137 min,7.9
+Mildred Pierce,1945,111 min,7.9
+Gegen die Wand,2004,121 min,7.9
+The Thin Man,1934,91 min,7.9
+My Name Is Khan,2010,165 min,7.9
+Kal Ho Naa Ho,2003,186 min,7.9
+The Lost Weekend,1945,101 min,7.9
+"4 luni, 3 saptamâni si 2 zile",2007,113 min,7.9
+Vozvrashchenie,2003,110 min,7.9
+Hoje Eu Quero Voltar Sozinho,2014,96 min,7.9
+Ascenseur pour l'échafaud,1958,91 min,7.9
+Nueve reinas,2000,114 min,7.9
+Hiroshima mon amour,1959,90 min,7.9
+Bronenosets Potemkin,1925,75 min,7.9
+Jab We Met,2007,138 min,7.9
+Gully Boy,2019,154 min,7.9
+Le cercle rouge,1970,140 min,7.9
+Miracle on 34th Street,1947,96 min,7.9
+The Big Heat,1953,89 min,7.9
+La règle du jeu,1939,110 min,7.9
+Såsom i en spegel,1961,90 min,7.9
+Sullivan's Travels,1941,90 min,7.9
+M.S. Dhoni: The Untold Story,2016,184 min,7.9
+No Man's Land,I 2001,98 min,7.9
+Dev.D,2009,144 min,7.9
+C.R.A.Z.Y.,2005,129 min,7.9
+La Belle et la Bête,1946,96 min,7.9
+Badhaai ho,2018,124 min,7.9
+Super 30,2019,154 min,7.9
+Padman,2018,140 min,7.9
+Baby,I 2015,159 min,7.9
+Airlift,2016,130 min,7.9
+Im Westen nichts Neues,2022,148 min,7.8
+The Batman,2022,176 min,7.8
+The Gentlemen,2019,113 min,7.8
+Tombstone,1993,130 min,7.8
+Pride & Prejudice,2005,129 min,7.8
+Little Women,2019,135 min,7.8
+Rogue One,2016,133 min,7.8
+The Hateful Eight,2015,168 min,7.8
+Drive,I 2011,100 min,7.8
+The Breakfast Club,1985,97 min,7.8
+Call Me by Your Name,2017,132 min,7.8
+The Hobbit: An Unexpected Journey,2012,169 min,7.8
+The Irishman,2019,209 min,7.8
+The Notebook,2004,123 min,7.8
+The Big Short,2015,130 min,7.8
+Apocalypto,2006,139 min,7.8
+Hidden Figures,2016,127 min,7.8
+Willy Wonka & the Chocolate Factory,1971,100 min,7.8
+The Sandlot,1993,101 min,7.8
+Dunkirk,2017,106 min,7.8
+The Social Network,2010,120 min,7.8
+The Girl with the Dragon Tattoo,2011,158 min,7.8
+Ferris Bueller's Day Off,1986,103 min,7.8
+Star Wars: Episode VII - The Force Awakens,2015,138 min,7.8
+About Time,I 2013,123 min,7.8
+Atonement,2007,123 min,7.8
+Little Miss Sunshine,2006,101 min,7.8
+Predator,1987,107 min,7.8
+Nightcrawler,2014,117 min,7.8
+The Fugitive,1993,130 min,7.8
+A Bronx Tale,1993,121 min,7.8
+Verdens verste menneske,2021,128 min,7.8
+Ghostbusters,1984,105 min,7.8
+Taken,I 2008,90 min,7.8
+Moonrise Kingdom,2012,94 min,7.8
+Hot Fuzz,2007,121 min,7.8
+The Curious Case of Benjamin Button,2008,166 min,7.8
+Manchester by the Sea,2016,137 min,7.8
+Remember the Titans,2000,113 min,7.8
+Captain America: Civil War,2016,147 min,7.8
+American Gangster,2007,157 min,7.8
+Paddington 2,2017,103 min,7.8
+Cast Away,2000,143 min,7.8
+Isle of Dogs,2018,101 min,7.8
+Skyfall,2012,143 min,7.8
+The Untouchables,1987,119 min,7.8
+Misery,1990,107 min,7.8
+Captain America: The Winter Soldier,2014,136 min,7.8
+The Hobbit: The Desolation of Smaug,2013,161 min,7.8
+Mr. Nobody,2009,141 min,7.8
+Mary Poppins,1964,139 min,7.8
+Captain Fantastic,2016,118 min,7.8
+Boyz n the Hood,1991,112 min,7.8
+Ang-ma-reul bo-at-da,2010,144 min,7.8
+Thirteen Lives,2022,147 min,7.8
+The Last Samurai,2003,154 min,7.8
+Big Hero 6,2014,102 min,7.8
+The Fighter,I 2010,116 min,7.8
+Awakenings,1990,121 min,7.8
+Moon,2009,97 min,7.8
+Walk the Line,2005,136 min,7.8
+Back to the Future Part II,1989,108 min,7.8
+Gattaca,1997,106 min,7.8
+Straight Outta Compton,2015,147 min,7.8
+Captain Phillips,2013,134 min,7.8
+The Remains of the Day,1993,134 min,7.8
+Serenity,2005,119 min,7.8
+Män som hatar kvinnor,2009,152 min,7.8
+La montaña sagrada,1973,114 min,7.8
+Midnight Cowboy,1969,113 min,7.8
+Gaslight,1944,114 min,7.8
+The Conversation,1974,113 min,7.8
+How to Train Your Dragon 2,2014,102 min,7.8
+Glory,1989,122 min,7.8
+The Fall,I 2006,117 min,7.8
+Cabaret,1972,124 min,7.8
+The Insider,1999,157 min,7.8
+Changeling,2008,141 min,7.8
+Majo no takkyûbin,1989,103 min,7.8
+Hunt for the Wilderpeople,2016,101 min,7.8
+Ed Wood,1994,127 min,7.8
+My Fair Lady,1964,170 min,7.8
+La migliore offerta,2013,131 min,7.8
+The Outlaw Josey Wales,1976,135 min,7.8
+October Sky,1999,108 min,7.8
+The King of Comedy,1982,109 min,7.8
+Mississippi Burning,1988,128 min,7.8
+Kramer vs. Kramer,1979,105 min,7.8
+Dawn of the Dead,1978,127 min,7.8
+Night of the Living Dead,1968,96 min,7.8
+The Right Stuff,1983,193 min,7.8
+Once,I 2007,86 min,7.8
+Breaking the Waves,1996,159 min,7.8
+All That Jazz,1979,123 min,7.8
+The Day of the Jackal,1973,143 min,7.8
+The World's Fastest Indian,2005,127 min,7.8
+My Left Foot: The Story of Christy Brown,1989,103 min,7.8
+Madeo,2009,129 min,7.8
+The Killing Fields,1984,141 min,7.8
+Days of Heaven,1978,94 min,7.8
+Chugyeokja,2008,125 min,7.8
+East of Eden,1955,118 min,7.8
+Stagecoach,1939,96 min,7.8
+Pride,I 2014,119 min,7.8
+Loving Vincent,2017,94 min,7.8
+Manhattan,1979,96 min,7.8
+Guess Who's Coming to Dinner,1967,108 min,7.8
+Frankenstein,1931,70 min,7.8
+The Day the Earth Stood Still,1951,92 min,7.8
+"Aguirre, der Zorn Gottes",1972,95 min,7.8
+Freaks,1932,64 min,7.8
+Lilja 4-ever,2002,109 min,7.8
+To Have and Have Not,1944,100 min,7.8
+Todo sobre mi madre,1999,101 min,7.8
+Bride of Frankenstein,1935,75 min,7.8
+Hannah and Her Sisters,1986,107 min,7.8
+The Man Who Would Be King,1975,129 min,7.8
+Duck Soup,1933,69 min,7.8
+Jûbê ninpûchô,1993,94 min,7.8
+Bringing Up Baby,1938,102 min,7.8
+Batman: Mask of the Phantasm,1993,76 min,7.8
+Das weiße Band - Eine deutsche Kindergeschichte,2009,144 min,7.8
+Un prophète,2009,155 min,7.8
+The Lunchbox,2013,104 min,7.8
+His Girl Friday,1940,92 min,7.8
+Shadow of a Doubt,1943,108 min,7.8
+Les parapluies de Cherbourg,1964,91 min,7.8
+Cowboy Bebop: Tengoku no tobira,2001,115 min,7.8
+Red River,1948,133 min,7.8
+The Asphalt Jungle,1950,112 min,7.8
+Les choristes,2004,97 min,7.8
+Under sandet,2015,100 min,7.8
+Dip huet seung hung,1989,111 min,7.8
+"I, Daniel Blake",2016,100 min,7.8
+The Lady Vanishes,1938,96 min,7.8
+The Innocents,1961,100 min,7.8
+Le charme discret de la bourgeoisie,1972,102 min,7.8
+You Can't Take It with You,1938,126 min,7.8
+Tôkyô goddofâzâzu,2003,92 min,7.8
+L'avventura,1960,144 min,7.8
+Il postino,1994,108 min,7.8
+Knockin' on Heaven's Door,1997,87 min,7.8
+Soshite chichi ni naru,2013,121 min,7.8
+Sennen joyû,2001,87 min,7.8
+Vivre sa vie: Film en douze tableaux,1962,80 min,7.8
+Crimes and Misdemeanors,1989,104 min,7.8
+Bir Zamanlar Anadolu'da,2011,157 min,7.8
+Veer-Zaara,2004,192 min,7.8
+Hindi Medium,2017,132 min,7.8
+A Night at the Opera,1935,96 min,7.8
+Vicky Donor,2012,126 min,7.8
+English Vinglish,2012,134 min,7.8
+Avatar: The Way of Water,2022,192 min,7.7
+The Whale,2022,117 min,7.7
+The Banshees of Inisherin,2022,114 min,7.7
+Aftersun,II 2022,102 min,7.7
+The Goonies,1985,114 min,7.7
+The Hangover,2009,100 min,7.7
+Get Out,I 2017,104 min,7.7
+Harry Potter and the Goblet of Fire,2005,157 min,7.7
+Deadpool 2,2018,119 min,7.7
+Mission: Impossible - Fallout,2018,147 min,7.7
+Kingsman: The Secret Service,2014,129 min,7.7
+Ex Machina,2014,108 min,7.7
+The Magnificent Seven,1960,128 min,7.7
+Detachment,2011,98 min,7.7
+Airplane!,1980,88 min,7.7
+The Bourne Supremacy,2004,108 min,7.7
+The Count of Monte Cristo,2002,131 min,7.7
+Zodiac,2007,157 min,7.7
+Harry Potter and the Deathly Hallows: Part 1,2010,146 min,7.7
+Home Alone,1990,103 min,7.7
+La vie d'Adèle,2013,180 min,7.7
+Argo,2012,120 min,7.7
+Primal Fear,1996,129 min,7.7
+Tangled,2010,100 min,7.7
+Ocean's Eleven,2001,116 min,7.7
+The Last Emperor,1987,163 min,7.7
+Coraline,2009,100 min,7.7
+Wind River,2017,107 min,7.7
+Blazing Saddles,1974,93 min,7.7
+Lost in Translation,2003,102 min,7.7
+Deliverance,1972,109 min,7.7
+Crash,I 2004,112 min,7.7
+Birdman or (The Unexpected Virtue of Ignorance),2014,119 min,7.7
+Brokeback Mountain,2005,134 min,7.7
+X: First Class,2011,131 min,7.7
+The Last of the Mohicans,1992,112 min,7.7
+(500) Days of Summer,2009,95 min,7.7
+The Lego Movie,2014,100 min,7.7
+En man som heter Ove,2015,116 min,7.7
+The Game,1997,129 min,7.7
+Black Hawk Down,2001,144 min,7.7
+Silver Linings Playbook,2012,122 min,7.7
+Blue Velvet,1986,120 min,7.7
+Key Largo,1948,100 min,7.7
+Training Day,2001,122 min,7.7
+Druk,2020,117 min,7.7
+Road to Perdition,2002,117 min,7.7
+Y tu mamá también,2001,106 min,7.7
+Man on Fire,2004,146 min,7.7
+Evil Dead II,1987,84 min,7.7
+Apollo 13,I 1995,140 min,7.7
+First Blood,1982,93 min,7.7
+The Machinist,2004,101 min,7.7
+Who Framed Roger Rabbit,1988,104 min,7.7
+Toy Story 4,2019,100 min,7.7
+Wreck-It Ralph,2012,101 min,7.7
+A Few Good Men,1992,138 min,7.7
+Midnight in Paris,2011,94 min,7.7
+As Good as It Gets,1997,139 min,7.7
+Halloween,1978,91 min,7.7
+The Boondock Saints,1999,108 min,7.7
+Empire of the Sun,1987,153 min,7.7
+The Boy in the Striped Pajamas,2008,94 min,7.7
+Being John Malkovich,1999,113 min,7.7
+Gravity,2013,91 min,7.7
+"O Brother, Where Art Thou?",2000,107 min,7.7
+What's Eating Gilbert Grape,1993,118 min,7.7
+"South Park: Bigger, Longer & Uncut",1999,81 min,7.7
+Sound of Metal,2019,120 min,7.7
+Sense and Sensibility,1995,136 min,7.7
+Dirty Harry,1971,102 min,7.7
+The Fault in Our Stars,2014,126 min,7.7
+The Trial of the Chicago 7,2020,129 min,7.7
+Clerks,1994,92 min,7.7
+Glengarry Glen Ross,1992,100 min,7.7
+When Harry Met Sally...,1989,95 min,7.7
+3:10 to Yuma,2007,122 min,7.7
+The Color Purple,1985,154 min,7.7
+Star Trek Into Darkness,2013,132 min,7.7
+Naked,1993,131 min,7.7
+Fried Green Tomatoes,1991,130 min,7.7
+Donnie Brasco,1997,127 min,7.7
+Philadelphia,1993,125 min,7.7
+The Theory of Everything,2014,123 min,7.7
+Adaptation.,2002,115 min,7.7
+Der Name der Rose,1986,130 min,7.7
+The French Connection,1971,104 min,7.7
+Kung fu,2004,99 min,7.7
+Serpico,1973,130 min,7.7
+Roma,2018,135 min,7.7
+Flipped,I 2010,90 min,7.7
+Goldfinger,1964,110 min,7.7
+Bonnie and Clyde,1967,111 min,7.7
+Ordinary People,1980,124 min,7.7
+Star Trek II: The Wrath of Khan,1982,113 min,7.7
+Malcolm X,1992,202 min,7.7
+La grande bellezza,2013,141 min,7.7
+Lucky Number Slevin,2006,110 min,7.7
+Billy Elliot,2000,110 min,7.7
+Miller's Crossing,1990,115 min,7.7
+Kaze tachinu,2013,126 min,7.7
+Paprika,2006,90 min,7.7
+Lola rennt,1998,81 min,7.7
+Belle de jour,1967,100 min,7.7
+Ray,I 2004,152 min,7.7
+The Verdict,1982,129 min,7.7
+Happiness,1998,134 min,7.7
+This Is England,2006,101 min,7.7
+Kubo and the Two Strings,2016,101 min,7.7
+The Longest Day,1962,178 min,7.7
+The Quiet Man,1952,129 min,7.7
+The Dirty Dozen,1967,150 min,7.7
+Short Cuts,1993,188 min,7.7
+Fantasia,1940,124 min,7.7
+Badlands,1973,94 min,7.7
+Le Petit Prince,2015,108 min,7.7
+Abre los ojos,1997,119 min,7.7
+Finding Neverland,2004,106 min,7.7
+Ajeossi,2010,119 min,7.7
+Hamlet,1996,242 min,7.7
+À bout de souffle,1960,90 min,7.7
+Chun gwong cha sit,1997,96 min,7.7
+Me and Earl and the Dying Girl,2015,105 min,7.7
+Zulu,1964,138 min,7.7
+La planète sauvage,1973,72 min,7.7
+The African Queen,1951,105 min,7.7
+Kurenai no buta,1992,94 min,7.7
+Beasts of No Nation,2015,137 min,7.7
+Waking Life,2001,99 min,7.7
+A Man for All Seasons,1966,120 min,7.7
+Cape Fear,1962,106 min,7.7
+Omoide no Marnie,2014,103 min,7.7
+Perfetti sconosciuti,2016,96 min,7.7
+Lat sau san taam,1992,128 min,7.7
+Nebraska,2013,115 min,7.7
+Spoorloos,1988,107 min,7.7
+Good Bye Lenin!,2003,121 min,7.7
+La double vie de Véronique,1991,98 min,7.7
+Zwartboek,2006,145 min,7.7
+Forushande,2016,124 min,7.7
+Invasion of the Body Snatchers,1956,80 min,7.7
+Scarface,1932,93 min,7.7
+Diarios de motocicleta,2004,126 min,7.7
+Wait Until Dark,1967,108 min,7.7
+Night on Earth,1991,129 min,7.7
+The Broken Circle Breakdown,2012,111 min,7.7
+Black Narcissus,1947,101 min,7.7
+Ondskan,2003,113 min,7.7
+Frost/Nixon,2008,122 min,7.7
+Ta'm e guilass,1997,95 min,7.7
+Hedwig and the Angry Inch,2001,95 min,7.7
+Gongdong gyeongbi guyeok JSA,2000,110 min,7.7
+Down by Law,1986,107 min,7.7
+Adams æbler,2005,94 min,7.7
+Les triplettes de Belleville,2003,80 min,7.7
+Efter brylluppet,2006,120 min,7.7
+Kokuhaku,2010,106 min,7.7
+Yume,1990,119 min,7.7
+Das Experiment,2001,120 min,7.7
+Toki o kakeru shôjo,2006,98 min,7.7
+Jules et Jim,1962,105 min,7.7
+The Caine Mutiny,1954,124 min,7.7
+In America,2002,105 min,7.7
+The Breadwinner,2017,94 min,7.7
+The Magdalene Sisters,2002,114 min,7.7
+The Purple Rose of Cairo,1985,82 min,7.7
+Love and Death,1975,85 min,7.7
+Joyeux Noël,2005,116 min,7.7
+Hana-bi,1997,103 min,7.7
+Ma vie de Courgette,2016,66 min,7.7
+Le passé,2013,130 min,7.7
+Zelig,1983,79 min,7.7
+The Muppet Christmas Carol,1992,85 min,7.7
+Auf der anderen Seite,2007,122 min,7.7
+Harry Potter and the Sorcerer's Stone,2001,152 min,7.6
+Once Upon a Time in... Hollywood,2019,161 min,7.6
+American Psycho,2000,102 min,7.6
+Moana,I 2016,107 min,7.6
+Office Space,1999,89 min,7.6
+The Birds,1963,119 min,7.6
+Moneyball,2011,133 min,7.6
+My Cousin Vinny,1992,120 min,7.6
+Saw,2004,103 min,7.6
+Superbad,2007,113 min,7.6
+Sicario,2015,121 min,7.6
+The Fifth Element,1997,126 min,7.6
+Inside Man,2006,129 min,7.6
+300,2006,117 min,7.6
+Stardust,2007,127 min,7.6
+Guardians of the Galaxy Vol. 2,2017,136 min,7.6
+Watchmen,2009,162 min,7.6
+Hell or High Water,II 2016,102 min,7.6
+Kick-Ass,2010,117 min,7.6
+Star Wars: Episode III - Revenge of the Sith,2005,140 min,7.6
+A Star Is Born,2018,136 min,7.6
+Lethal Weapon,1987,109 min,7.6
+The Blind Side,2009,129 min,7.6
+Kung Fu Panda,2008,92 min,7.6
+Gone Baby Gone,2007,114 min,7.6
+The Royal Tenenbaums,2001,110 min,7.6
+Minority Report,2002,145 min,7.6
+RoboCop,1987,102 min,7.6
+The Thin Red Line,1998,170 min,7.6
+Searching,III 2018,102 min,7.6
+Despicable Me,2010,95 min,7.6
+Mulan,1998,87 min,7.6
+The Butterfly Effect,2004,113 min,7.6
+After Hours,I 1985,97 min,7.6
+Serbuan maut,2011,101 min,7.6
+Dark City,1998,100 min,7.6
+The Fly,1986,96 min,7.6
+What We Do in the Shadows,2014,86 min,7.6
+La piel que habito,2011,120 min,7.6
+Rushmore,1998,93 min,7.6
+True Grit,2010,110 min,7.6
+The Others,2001,101 min,7.6
+The Mitchells vs the Machines,2021,114 min,7.6
+Mad Max 2,1981,96 min,7.6
+Eastern Promises,2007,100 min,7.6
+Dark Waters,2019,126 min,7.6
+Dawn of the Planet of the Apes,2014,130 min,7.6
+The Jungle Book,1967,78 min,7.6
+End of Watch,2012,109 min,7.6
+Enter the Dragon,1973,102 min,7.6
+The Naked Gun: From the Files of Police Squad!,1988,85 min,7.6
+Rebel Without a Cause,1955,111 min,7.6
+Gake no ue no Ponyo,2008,101 min,7.6
+Snow White and the Seven Dwarfs,1937,83 min,7.6
+Match Point,2005,124 min,7.6
+Die Hard with a Vengeance,1995,128 min,7.6
+The Last King of Scotland,2006,123 min,7.6
+Philomena,2013,98 min,7.6
+The Bridges of Madison County,1995,135 min,7.6
+50/50,2011,100 min,7.6
+Seven Pounds,2008,123 min,7.6
+21 Grams,2003,124 min,7.6
+I Am Sam,2001,132 min,7.6
+Sabrina,1954,113 min,7.6
+From Here to Eternity,1953,118 min,7.6
+Barton Fink,1991,116 min,7.6
+25th Hour,2002,135 min,7.6
+Un long dimanche de fiançailles,2004,133 min,7.6
+The Taking of Pelham One Two Three,1974,104 min,7.6
+United 93,2006,111 min,7.6
+Control,2007,122 min,7.6
+Les yeux sans visage,1960,90 min,7.6
+Shine,1996,105 min,7.6
+The Invisible Man,1933,71 min,7.6
+Celda 211,2009,113 min,7.6
