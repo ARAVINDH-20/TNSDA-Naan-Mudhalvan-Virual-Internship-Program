@@ -1,1 +1,1 @@
-# TNSDA-Naan-Mudhalvan-Virual-Internship-Program
+# TNSDC-Naan-Mudhalvan-Virual-Internship-Program
