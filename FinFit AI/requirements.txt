@@ -7,3 +7,4 @@ tensorflow
 joblib
 matplotlib
 yfinance
+gunicorn 
