@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Breast Cancer Prediction</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+  <link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+
+    <div class="main-panel">        
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">Get A Quick And Easy Breast Cancer Risk Assessment With Just One Click</h1>
+                <p class="card-description">
+                    Breast cancer is a type of cancer that develops in the breast tissue. It usually begins with the formation of a lump in the breast or the surrounding area. Breast cancer can affect both men and women, but it is more commonly found in women. It is the second most common type of cancer among women worldwide.
+                </p><br>
+                <img src="{{url_for('static',filename='images/breast.jpg')}}" width="100px" >
+                <br>
+                <p class="card-description">
+                  &nbsp; The early detection of breast cancer is important for effective treatment. The most common method of detection is through mammography, which is a type of X-ray that can detect the presence of abnormal growths or tumors in the breast tissue. Other methods of detection include clinical breast exams, breast self-exams, and breast ultrasound.
+
+                    Machine learning algorithms can be used to predict the risk of breast cancer in individuals. These algorithms use various factors such as age, family history, lifestyle habits, and medical history to determine the likelihood of developing breast cancer
+                </p>        
+                <div class="card-body">
+                  <h4 class="card-title">Usage of Breast Cancer Prediction:</h4>
+                  <ul class="list-ticked">
+                    <li>Early Detection</li>
+                    <li>Customized Treatment Plans</li>
+                    <li>Resource Optimization</li>
+                    <li>Patient Empowerment</li>
+                    <li>overall understanding of the disease.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Please fill out below details.</h4>
+                
+                <form class="forms-sample" action="{{ url_for('Cancer_predict')}}" method="POST">
+        
+                    <div class="form-group row">
+                        <label for="bld" class="col-sm-3 col-form-label">Mean of the Concave Points</label>
+                        <div class="col-sm-9">
+                        <input type="number" step="any" class="form-control" id="bld" required="required" >
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ser" class="col-sm-3 col-form-label">Mean of the Area</label>
+                        <div class="col-sm-9">
+                        <input type="number" step="any" class="form-control" id="ser" required="required">
+                        </div>
+                    </div>
+            
+                  
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Mean of the Radius</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="ma" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Mean of the Perimeters</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="ma" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Mean of the Concavity</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="ma" required="required">
+                        </div>
+                    </div>
+                  
+                  <button type="submit" class="btn btn-warning mr-2">Predict</button>
+                  <button class="btn btn-light">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% if prediction_text  %}
+        <div class="col-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Result</h2>
+              <h4 class= "text-{{color}}" >
+                {{ prediction_text }}
+              </h4>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

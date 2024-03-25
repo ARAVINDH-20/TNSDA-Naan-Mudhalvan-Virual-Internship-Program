@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BMI</title>
+<!-- plugins:css -->
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+<link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+</head>
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+    <div class="main-panel">        
+      <div class="content-wrapper">
+            <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">BMI calcator</h4>
+                    <p class="mb-4">The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.
+                        <br></p>
+                    <form method="post" action="{{ url_for('bmi_result')}}" >
+                        <div class="form-group row">
+                            <label for="breakfast" class="col-sm-2 col-form-label">Body Weight</label>
+                            <div class="col-sm-10">
+                                <input type="number" step="any" name="weight" id="weight" placeholder="Weight in kg" required="required"  class="form-control">
+                                <span  class="text-danger" id="breakfast_error"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lunch" class="col-sm-2 col-form-label">Body Height</label>
+                            <div class="col-sm-10">
+                                <input type="number" step="any" name="height" id="height" placeholder="Height in cm" required="required"  class="form-control">
+                                <span  class="text-danger" id="lunch_error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group ">
+                            <input type="submit"  value="Submit" class="btn btn-success" >
+                        </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+            {% if prediction_text  %}
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Result</h2>
+                  <h4 class= "text-{{color}}" >
+                    {{ prediction_text }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Heart Prediction</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+  <link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+</head>
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+
+    <div class="main-panel">        
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">Assess Your Risk Of Heart Disease Quickly And Easily With One Click!</h1>
+                <p class="card-description">
+                  Heart disease, also known as cardiovascular disease, is a condition that affects the heart and blood vessels. It can include a range of conditions such as coronary artery disease, heart failure, arrhythmias, and valvular heart disease.
+                </p><br>
+                <video src="../static/vedio/Heart Beats.mp4" width="450px" loop muted autoplay></video>
+                <br>
+                <p class="card-description">
+                  &nbsp; Early detection and management of heart disease can help prevent complications and improve outcomes. Machine learning models can be used to predict an individual's risk of developing heart disease based on various factors such as age, gender, family history, blood pressure, and cholesterol levels. This can help healthcare providers develop personalized prevention and management plans for their patients.
+                </p>
+                <div class="card-body">
+                  <h4 class="card-title">Usage of heart Disease Prediction:</h4>
+                  <ul class="list-ticked">
+                    <li>Early Detection</li>
+                    <li>Customized Treatment Plans</li>
+                    <li>Resource Optimization</li>
+                    <li>Patient Empowerment</li>
+                    <li>personal health monitoring</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Please fill out below details.</h4>
+                
+                <form class="forms-sample" action="{{ url_for('heart_predict')}}" method="post">
+                  <div class="form-group row">
+                    <label for="pain" class="col-sm-3 col-form-label">Chest Pain Type</label>
+                    <div class="col-sm-9">
+                      <select class="form-control">
+                        <option value="1">Typical Angina</option>
+                        <option value="2">Atypical Angina</option>
+                        <option value="3">Non-Anginal Pain</option>
+                        <option value="4">Asymptomatic</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="bld" class="col-sm-3 col-form-label">Resting Blood Pressure (in mm Hg)</label>
+                    <div class="col-sm-9">
+                      <input type="number" step="any" class="form-control" id="bld" required="required" placeholder="Resting Blood Pressure">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">Serum Cholestoral in mg/dl</label>
+                    <div class="col-sm-9">
+                      <input type="number" step="any" class="form-control" id="ser" required="required" placeholder="Serum Cholestoral">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="blood" class="col-sm-3 col-form-label">Fasting Blood Sugar</label>
+                    <div class="col-sm-9">
+                      <select class="form-control">
+                        <option value="0">Fasting Blood Sugar < 120 mg/dl</option>
+                        <option value="1">Fasting Blood Sugar > 120 mg/dl</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="res" class="col-sm-3 col-form-label">Resting Electro-cardiographic Result</label>
+                    <div class="col-sm-9">
+                      <select class="form-control">
+                        <option value="0">Normal</option>
+                        <option value="1">having ST-T wave abnormality</option>
+                        <option value="2">showing probable or definite left ventricular hypertrophy</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="ma" class="col-sm-3 col-form-label">Maximum Heart Rate Achieved</label>
+                    <div class="col-sm-9">
+                      <input step="any" type="number" class="form-control" id="ma" required="required">
+                    </div>
+                  </div>
+                  
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Exercise Induced Angina</label>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="1" checked>
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="0">
+                          No
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-warning mr-2">Predict</button>
+                  <button class="btn btn-light">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% if prediction_text  %}
+        <div class="col-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Result</h2>
+              <h4 class= "text-{{color}}" >
+                {{ prediction_text }}
+              </h4>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

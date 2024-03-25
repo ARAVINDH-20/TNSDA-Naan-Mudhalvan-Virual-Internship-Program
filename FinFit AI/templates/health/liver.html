@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Liver Disease Prediction</title>
+<!-- plugins:css -->
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+<link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+</head>
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+
+    <div class="main-panel">        
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">
+                    Assess Your Risk Of Liver Disease Quickly And Easily With One Click</h1>
+                <p class="card-description">
+                    Liver disease is a term used to describe any disorder that affects the liver, including liver cirrhosis, fatty liver disease, hepatitis, and liver cancer. Early detection and treatment of liver disease can prevent serious complications and improve outcomes. Machine learning models can be used to predict the risk of developing liver disease based on various factors such as age, gender, lifestyle habits, medical history, and liver function test results. The applications of liver disease prediction models include early diagnosis, disease prevention, and personalized treatment planning. By predicting the risk of liver disease, healthcare professionals can develop targeted prevention and treatment plans to reduce the risk of complications and improve patient outcomes.
+                </p><br>
+                <img src="{{url_for('static',filename='images/liver.jpg')}}" width="350px" >
+                <br>
+                <p class="card-description">
+                  &nbsp; Liver disease prediction is an application of machine learning that can help to predict the risk of liver disease in individuals. It involves analyzing various factors such as age, gender, alcohol consumption, BMI, and other health conditions to determine the likelihood of liver disease. By using predictive models, healthcare professionals can identify patients at high risk of liver disease and take proactive measures to prevent or manage the condition.
+                </p>        
+                <div class="card-body">
+                  <h4 class="card-title">Usage of Liver Disease Prediction:</h4>
+                  <ul class="list-ticked">
+                    <li>Early Detection</li>
+                    <li>Customized Treatment Plans</li>
+                    <li>Resource Optimization</li>
+                    <li>Public health policy</li>
+                    <li>Healthcare resource allocation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Please fill out below details.</h4>
+                
+                <form class="forms-sample" action="{{ url_for('liver_predict')}}" method="POST">
+        
+                    <div class="form-group row">
+                        <label for="bld" class="col-sm-3 col-form-label">Age</label>
+                        <div class="col-sm-9">
+                        <input type="number" step="any" class="form-control" id="bld" required="required" >
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ser" class="col-sm-3 col-form-label">Total Bilirubin</label>
+                        <div class="col-sm-9">
+                        <input type="number" step="any" class="form-control" id="ser" required="required" >
+                        </div>
+                    </div>
+            
+                  
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Direct Bilirubin</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="mas" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Alkaline Phosphotase</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="dma" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Alamine Aminotransferase</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="ama" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Aspartate Aminotransferase</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="aa" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Total Protiens</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="mdda" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Albumin</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="alu" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Albumin and Globulin Ratio</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="agl" required="required">
+                        </div>
+                    </div>
+                  
+                  <button type="submit" class="btn btn-warning mr-2">Predict</button>
+                  <button class="btn btn-light">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% if prediction_text  %}
+        <div class="col-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Result</h2>
+              <h4 class= "text-{{color}}" >
+                {{ prediction_text }}
+              </h4>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

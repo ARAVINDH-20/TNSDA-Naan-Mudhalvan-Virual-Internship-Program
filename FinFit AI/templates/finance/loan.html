@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Loan Approval Prediction</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+  <link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+</head>
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+
+    <div class="main-panel">        
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">Get A Quick Assessment Of Your Loan Approval With Just One Click</h1>
+                <p class="card-description">
+                  LOANS are the major requirement of the modern world. By this only, Banks get a major part of the total profit. It is beneficial for students to manage their education and living expenses, and for people to buy any kind of luxury like houses, cars, etc.
+
+But when it comes to deciding whether the applicant’s profile is relevant to be granted with loan or not. Banks have to look after many aspects.
+                </p>
+  <br>
+  <video src="../static/vedio/money.mp4" width="400px" loop muted autoplay></video>
+  <br>
+                <p class="card-description">
+                  Loan approval prediction is a machine learning application that helps predict the likelihood of a loan being approved based on various factors such as credit score, income, employment history, and loan amount. This application can be used by lenders and financial institutions to evaluate loan applications and make informed decisions. It can also be useful for individuals who want to assess their own likelihood of loan approval before applying for a loan. The prediction model can help save time and reduce the risk of rejection, leading to a more efficient loan approval process.
+                </p>
+                
+                <br>
+                <p class="card-description">
+                  &nbsp; Loan approval prediction is a machine learning-based solution that can be used by banks and other financial institutions to predict whether a loan applicant is likely to repay the loan or default on it. This prediction is based on various factors such as credit history, income, employment status, debt-to-income ratio, and other relevant financial and personal information.
+
+                  The application of loan approval prediction can help financial institutions to make informed decisions about loan approvals and reduce the risk of defaults. It can also speed up the loan application process and improve customer satisfaction by providing quicker loan decisions. Additionally, it can help to identify potential fraudulent loan applications and prevent financial losses for the institution.
+                </p>
+                <p class="card-description">
+                  &nbsp; Overall, loan approval prediction is a valuable tool for banks and other financial institutions to improve their lending practices and make more accurate and informed loan decisions.
+                </p>
+                <div class="card-body">
+                  <h4 class="card-title">Usage of loan Approval Prediction:</h4>
+                  <ul class="list-ticked">
+                    <li>Early Prediction</li>
+                    <li>reduce the risk in financial matters</li>
+                    <li>Resource Optimization</li>
+                    <li>help of Individual customers</li>
+                    <li>Grow of our financial status</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Please fill out below details.</h4>
+                
+                <form class="forms-sample" action="{{ url_for('Loan_predict')}}" method="post">
+
+                  <div class="form-group row">
+                    <label for="pain" class="col-sm-3 col-form-label">Gender</label>
+                    <div class="col-sm-9">
+                      <select class="form-control">
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Married</label>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="abc" id="abc" value="1" checked>
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="abc" id="abc" value="0">
+                          No
+                        </label>
+                      </div>
+                    </div>
+                  </div> 
+
+                  <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">How many peoples Dependents on you?</label>
+                    <div class="col-sm-9">
+                    <input type="number" step="any" class="form-control" id="seaaar" required="required" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Are You Educated?</label>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="membershipRadios" id="d" value="1" checked>
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="membershipRadios" id="d" value="0">
+                          No
+                        </label>
+                      </div>
+                    </div>
+                  </div>  
+
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Are you Self Employed?</label>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="a" id="a" value="1" checked>
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="a" id="a" value="0">
+                          No
+                        </label>
+                      </div>
+                    </div>
+                  </div>  
+
+                  <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">Applicant Income?</label>
+                    <div class="col-sm-9">
+                    <input type="number" step="any" class="form-control" id="saaer" required="required" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">Coapplicant Income?</label>
+                    <div class="col-sm-9">
+                    <input type="number" step="any" class="form-control" id="seaaar" required="required" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">How much you want Loan Amount?</label>
+                    <div class="col-sm-9">
+                    <input type="number" step="any" class="form-control" id="ser" required="required" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">Which you prefer Loan Amount Term?</label>
+                    <div class="col-sm-9">
+                    <input type="number" step="any" class="form-control" id="gooder" required="required" placeholder="">
+                    </div>
+                </div>
+
+                  <div class="form-group row">
+                    <label for="res" class="col-sm-3 col-form-label">have you Credit History?</label>
+                    <div class="col-sm-9">
+                      <select class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                      </select>
+                    </div>
+                </div>
+
+                  <div class="form-group row">
+                    <label for="ser" class="col-sm-3 col-form-label">How many Property Area you have ?</label>
+                    <div class="col-sm-9">
+                    <input type="number" step="any" class="form-control" id="aaser" required="required" placeholder="">
+                    </div>
+                </div>
+
+                  <button type="submit" class="btn btn-warning mr-2">Predict</button>
+                  <button class="btn btn-light">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% if prediction_text  %}
+        <div class="col-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Result</h2>
+              <h4 class= "text-{{color}}" >
+                {{ prediction_text }}
+              </h4>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

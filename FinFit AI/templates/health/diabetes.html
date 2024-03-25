@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>diabetes Prediction</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+  <link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+
+    <div class="main-panel">        
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">Assess Your Diabetes Risk Quickly And Easily With One Click!!</h1>
+                <p class="card-description">
+                    Diabetes is a chronic condition that affects how the body uses glucose, a type of sugar, as its main source of energy. When the body does not produce enough insulin, a hormone that regulates glucose levels, or when the body is unable to use insulin effectively, it can lead to high levels of glucose in the blood, which can cause a variety of health problems over time.
+                </p>
+                <img src="{{url_for('static',filename='images/diabetes.jpg')}}" width="300px" >
+                <br>
+                <p class="card-description">
+                  &nbsp; The application of predicting diabetes can help in early detection and management of the disease. Machine learning algorithms can analyze various factors such as age, gender, family history, weight, and lifestyle habits to predict the risk of developing diabetes. This can aid in creating personalized prevention and treatment plans, as well as identifying individuals who may need more frequent checkups or monitoring. Additionally, diabetes prediction models can be used in healthcare research to identify trends and risk factors associated with the disease.
+                </p>        
+                <div class="card-body">
+                  <h4 class="card-title">Usage of diabetes Prediction:</h4>
+                  <ul class="list-ticked">
+                    <li>Early Detection</li>
+                    <li>Customized Treatment Plans</li>
+                    <li>Resource Optimization</li>
+                    <li>Public health policy</li>
+                    <li>Healthcare resource allocation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Please fill out below details.</h4>
+                
+                <form class="forms-sample" action="{{ url_for('Diabetes_predict')}}" method="POST">
+        
+                    <div class="form-group row">
+                        <label for="bld" class="col-sm-3 col-form-label">No. of Pregnencies</label>
+                        <div class="col-sm-9">
+                        <input type="number" step="any" class="form-control" id="bld" required="required" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ser" class="col-sm-3 col-form-label">Glucose Level</label>
+                        <div class="col-sm-9">
+                        <input type="number" step="any" class="form-control" id="ser" required="required" placeholder="">
+                        </div>
+                    </div>
+            
+                  
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Current Blood Pressure</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="mas" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Enter the Body Mass Index(BMI)</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="dma" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Enter Insulin Level</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="ama" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Diabetes Pedigree Function</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="aa" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ma" class="col-sm-3 col-form-label">Age</label>
+                        <div class="col-sm-9">
+                        <input step="any" type="number" class="form-control" id="ma" required="required">
+                        </div>
+                    </div>
+                  
+                  <button type="submit" class="btn btn-warning mr-2">Predict</button>
+                  <button class="btn btn-light">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% if prediction_text  %}
+        <div class="col-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Result</h2>
+              <h4 class= "text-{{color}}" >
+                {{ prediction_text }}
+              </h4>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

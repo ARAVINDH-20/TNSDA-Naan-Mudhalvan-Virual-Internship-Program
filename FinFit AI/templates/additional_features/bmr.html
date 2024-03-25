@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BMR</title>
+<!-- plugins:css -->
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+<link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+</head>
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+    <div class="main-panel">        
+      <div class="content-wrapper">
+            <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">BMR calculation</h4>
+                    <p class="mb-4">The basal metabolic rate (BMR) and calorie calculator is an excellent tool for estimating how many calories your body needs on a daily basis depending on the amount and intensity of your exercise regime.
+                        <br></p>
+                        <form method="post" action="{{ url_for('bmr_result')}}"">
+
+                            <div class="form-group row">
+                                <label for="ser" class="col-sm-3 col-form-label">Age</label>
+                                <div class="col-sm-9">
+                                  <input class="form-control" type="number" step="any" id="age" name="age" required="required">
+                                </div>
+                            </div>
+              
+                            <fieldset class="form-group">
+                              <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                                <div class="col-sm-10" id="form-radio">
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" value="1" id="male" name="customRadioInline1" class="custom-control-input" checked="checked">
+                                    <label class="custom-control-label" for="male">Male</label>
+                                  </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" value="0" id="female" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="female">Female</label>
+                                  </div>  
+                                </div>
+                              </div> 
+                            </fieldset> 
+              
+                            <div class="form-group row">
+                                <label for="sear" class="col-sm-3 col-form-label">Weight</label>
+                                <div class="col-sm-9">
+                                  <input class="form-control" type="number" step="any" id="Weight" name="Weight" required="required">
+                                </div>
+                            </div>
+              
+                            <div class="form-group row">
+                                <label for="se" class="col-sm-3 col-form-label">Height</label>
+                                <div class="col-sm-9">
+                                  <input class="form-control" type="number" step="any" id="Height" name="Height" required="required">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="res" class="col-sm-3 col-form-label">Region</label>
+                                <div class="col-sm-9">
+                                  <select class="form-control" id="re" name = "re" required="required" placeholder="">
+                                    <option selected value="1">Sedentary (little or no exercise)</option>
+                                    <option value="2">Lightly active (light exercise/sports 1-3 days/week)</option>
+                                    <option value="3">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                                    <option value="4">Very active (hard exercise/sports 6-7 days a week)</option>
+                                    <option value="5">Extra active (very hard exercise/sports & physical job or 2x training)</option>    
+                                  </select>
+                                </div>
+                              </div>
+                              
+                            <div class="form-group">
+                                <input type="submit"  value="Submit" class="btn btn-success" >
+                            </div>
+                            
+                        </form>
+                  </div>
+                </div>
+                {% if prediction_text  %}
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Result</h2>
+                  <h4 class= "text-{{color}}" >
+                    {{ prediction_text }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            </div>
+
+    {% include 'includes/footer.html' %}
+
+</body>
+
+</html>
+

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Credit Card score Prediction</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/vertical-layout-light/style.css')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/favicon/apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon/favicon-16x16.png')}}">
+  <link rel="manifest" href="{{url_for('static',filename='images/favicon/site.webmanifest')}}">
+</head>
+<body>
+  <div class="container-scroller">
+
+    {% include 'includes/navbar_topbar.html' %}
+
+    <div class="main-panel">        
+      <div class="content-wrapper">
+            <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Please fill out below details.</h4>
+                    <form class="form-sample" action="{{ url_for('Credit_predict')}}" method="post">
+                      <p class="card-description">
+                        
+                      </p>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Occupation</label>
+                              <div class="col-sm-9">
+                                <select class="form-control">
+                                  <option value="1">Architect</option>
+                                  <option value="2">Developer</option>
+                                  <option value="3">Doctor</option>
+                                  <option value="4">Engineer</option>
+                                  <option value="5">Entrepreneur</option>
+                                  <option value="6">Journalist</option>
+                                  <option value="7">Lawyer</option>
+                                  <option value="8">Manager</option>
+                                  <option value="9">Mechanic</option>
+                                  <option value="10">Media</option>
+                                  <option value="11">Musician</option>
+                                  <option value="12">Scientist</option>
+                                  <option value="13">Teacher</option>
+                                  <option value="15">Writer</option>
+                                  <option value="0">Accountant</option>
+                                  <option value="14">Others..</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Annual Income</label>
+                              <div class="col-sm-9">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text bg-primary text-white">₹</span>
+                                  </div>
+                                  <input type="number" required="required" class="form-control" aria-label="Amount (to the nearest ruppes)">
+                                  <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Monthly Income</label>
+                              <div class="col-sm-9">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text bg-primary text-white">₹</span>
+                                  </div>
+                                  <input type="number" required="required" class="form-control" aria-label="Amount (to the nearest ruppes)">
+                                  <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-7 col-form-label">Number of holds Bank Accounts</label>
+                              <div class="col-sm-5">
+                                <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-6 col-form-label">&nbsp; &nbsp; Number of holds Credit Card</label>
+                              <div class="col-sm-5">
+                                <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Interest Rate of your Credit card</label>
+                              <div class="col-sm-8">
+                                <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-6 col-form-label">&nbsp; &nbsp; &nbsp; &nbsp; No. of loans taken from the bank</label>
+                              <div class="col-sm-5">
+                                <input type="number" step="any" required="required" class="form-control" placeholder="">
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Days delay from Payment Date?</label>
+                              <div class="col-sm-8">
+                                <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                             </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-6 col-form-label">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; How many times paid Delayed?</label>
+                              <div class="col-sm-5">
+                                <input type="number" step="any" required="required" class="form-control" placeholder="">
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Number of credit inquiries</label>
+                              <div class="col-sm-8">
+                                <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                             </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-5 col-form-label">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Mix of Credit card</label>
+                              <div class="col-sm-6">
+                                <select class="form-control">
+                                  <option value="2">Good</option>
+                                  <option value="0">Absent</option>
+                                  <option value="1">Bad</option>
+                                  <option value="3">Standard</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Utilization ratio of card</label>
+                                <div class="col-sm-6">
+                                  <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                               </div
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-7 col-form-label"> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;paid minimum amount for loan?</label>
+                              <div class="col-sm-5">
+                                <select class="form-control">
+                                  <option value="2">Yes</option>
+                                  <option value="0">Not Mention</option>
+                                  <option value="1">No</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Count of EMI per month</label>
+                              <div class="col-sm-6">
+                                <input type="number" step="any" required="required" class="form-control"  placeholder="">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-7 col-form-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amount Invested by month</label>
+                              <div class="col-sm-5">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text bg-primary text-white">₹</span>
+                                  </div>
+                                  <input type="number" required="required" class="form-control" aria-label="Amount (to the nearest ruppes)">
+                                  <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-4 col-form-label">Bank montly Balance</label>
+                              <div class="col-sm-6">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text bg-primary text-white">₹</span>
+                                  </div>
+                                  <input type="number" required="required" class="form-control" aria-label="Amount (to the nearest ruppes)">
+                                  <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              
+                            <button type="submit" class="btn btn-warning">Predict</button>
+                              </div>
+                          </div>
+                        </div>
+          </form>
+        {% if prediction_text  %}
+        <div class="row">
+          <div class="col-md-6 col-sm-5 ">
+            <div class="form-group row">
+              
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-sm-5">
+            <div class="form-group row">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Result</h2>
+                  <h4 class= "text-{{color}}" >
+                    {{ prediction_text }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        {% endif %}
+      </div>
+
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  
+  <!-- plugins:js -->
+  <script src="{{url_for('static',filename='vendors/js/vendor.bundle.base.js')}}"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="{{url_for('static',filename='vendors/chart.js/Chart.min.js')}}"></script>
+  <script src="{{url_for('static',filename='vendors/datatables.net/jquery.dataTables.js')}}"></script>
+  <script src="{{url_for('static',filename='vendors/datatables.net-bs4/dataTables.bootstrap4.js')}}"></script>
+  <script src="{{url_for('static',filename='js/dataTables.select.min.js')}}"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="{{url_for('static',filename='js/off-canvas.js')}}"></script>
+  <script src="{{url_for('static',filename='js/hoverable-collapse.js')}}"></script>
+  <script src="{{url_for('static',filename='js/template.js')}}"></script>
+  <script src="{{url_for('static',filename='js/settings.js')}}"></script>
+  <script src="{{url_for('static',filename='js/todolist.js')}}"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="{{url_for('static',filename='js/dashboard.js')}}"></script>
+  <script src="{{url_for('static',filename='js/Chart.roundedBarCharts.js')}}"></script>
+  <!-- End custom js for this page-->
+
+  <script src="{{url_for('static',filename='js/demo/chart-area-demo.js')}}"></script>
+  <script src="{{url_for('static',filename='js/demo/chart-pie-demo.js')}}"></script>
+
+</body>
+
+</html>
+
